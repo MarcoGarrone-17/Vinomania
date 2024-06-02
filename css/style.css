@@ -17,3 +17,15 @@ img {
 	max-width: 1100px;
 	margin: 0 auto;
 }
+
+svg {
+    fill: white;
+}
+
+.elemento-rosso {
+    background-color: #460202;
+    width: 360px;
+    height: 340px;
+    align-items: center;
+    justify-content: center;
+}
