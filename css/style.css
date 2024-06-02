@@ -13,6 +13,8 @@ img {
     display: block;
 }
 
+
+
 .contenitore {
 	max-width: 1100px;
 	margin: 0 auto;
@@ -26,6 +28,15 @@ svg {
     background-color: #460202;
     width: 360px;
     height: 340px;
-    align-items: center;
-    justify-content: center;
+    
+}
+
+.contenitore-icone {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+}
+
+.testo-e-icona {
+    margin: 0 auto;
 }
