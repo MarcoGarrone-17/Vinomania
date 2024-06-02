@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: "sarabun", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: "sarabun", "yeseva one", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 h1, h2, h3, h4, h5, h6, p, ul, ol {
@@ -12,6 +12,57 @@ img {
     max-width: 100%;
     display: block;
 }
+
+header {
+    background-color: #460202;
+    margin: auto;
+    max-width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+}
+
+.home-botton {
+    font-family: "yeseva one";
+    font-size: 26px;
+    text-decoration: none;
+    color: white;
+}
+
+header p {
+    font-weight: bold; 
+    font-size: 16px;
+    text-decoration: none;
+}
+
+header p:hover {
+    text-decoration: underline;
+}
+
+header p a, footer a {
+    text-decoration: none;
+    color: white
+}
+
+header nav ul, footer nav ul {
+    font-size: 15px;
+    display: flex;
+    list-style-type: none;
+    gap: 60px;
+}
+
+header nav ul a, footer nav ul a {
+    text-decoration: none;
+    color: white;
+}
+
+header nav ul a:hover, footer nav ul a:hover, footer p a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
 
 
 
