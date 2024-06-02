@@ -24,6 +24,10 @@ header {
     padding: 0px 100px;
 }
 
+footer {
+    background-color: #460202;
+}
+
 .home-botton {
     font-family: "yeseva one";
     font-size: 26px;
