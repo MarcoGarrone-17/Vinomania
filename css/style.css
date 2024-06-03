@@ -244,5 +244,10 @@ letter-spacing: 0.8px;
 }
 
 .rossoprimo {
-    
+    display: flex;
+    gap: 97px;
+}
+
+.fotovino  {
+    margin: 120px 97px 144px 150px
 }
