@@ -15,7 +15,7 @@ img {
 }
 
 header {
-    background-color: #460202;
+    background-color: #2B0005;
     margin: auto;
     max-width: 100%;
     height: 65px;
@@ -29,7 +29,7 @@ footer {
     justify-content: space-between;
     display: flex;
     max-width: 100%;
-    background-color: #460202;
+    background-color: #2B0005;
 }
 
 footer p {
@@ -102,7 +102,33 @@ svg {
     background-color: #460202;
     width: 360px;
     height: 340px;
-    
+    align-content: center;
+    border-radius: 50px;
+    border: solid white 7px;
+}
+
+.elemento-rosato {
+    background-color: #C96666;
+    width: 360px;
+    height: 340px;
+    align-content: center;
+    border-radius: 50px;
+    border: solid white 7px;
+}
+
+.elemento-bianco {
+    background-color: #DDBD4A;
+    width: 360px;
+    height: 340px;
+    align-content: center;
+    border-radius: 50px;
+    border: solid white 7px;
+}
+
+.section-ico {
+    display: grid;
+    grid-template-rows: 1fr;
+    row-gap: 65px;
 }
 
 .contenitore-icone {
@@ -111,15 +137,29 @@ svg {
     margin: auto;
 }
 
+.intro-icone {
+    color: white;
+    margin: 0 auto;
+    margin-top: 60px;
+    text-align: center;
+    border-bottom: solid white;
+    width: 210px;
+}
+
 .testo-e-icona {
     margin: 0 auto;
+    text-align: center;
+    
 }
-.hero video {
+
+.testo-icona {
+    color: white;
+}
+
+.hero {
     max-width: 100%;
 }
-.hero1 img {
-    max-width: 100%;
-}
+
 .corpohome1 {
     display: flex;
     margin-left: 150px;
@@ -176,7 +216,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 150%; /* 27px */
 letter-spacing: -0.198px;
-        }
+    }
 
 .corpohome2 div.cardhome img {
 margin-left: 150px;
@@ -189,27 +229,6 @@ border-radius: 55px;
 border: 6px solid black;
 display: flex;
 }
-
-.titolovini h1{
-margin-left: 693px;
-margin-right: 692px;
-color: white;
-font-size: 32px;
-font-style: normal;
-font-weight: 700;
-line-height: 150%; /* 48px */
-letter-spacing: -0.608px;
-}
-.linea {
-margin: 30px 613px 65px 613px;
-width: 214px;
-height: 1px;
-background-color: white;
-position: absolute;
-right: 0;
-}
-
-
 
 
 .hero .rossotitolo h1 {
@@ -241,13 +260,4 @@ font-style: normal;
 font-weight: 400;
 line-height: 150%; /* 24px */
 letter-spacing: 0.8px;
-}
-
-.rossoprimo {
-    display: flex;
-    gap: 97px;
-}
-
-.fotovino  {
-    margin: 120px 97px 144px 150px
 }
