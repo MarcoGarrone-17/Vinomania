@@ -89,6 +89,10 @@ header nav ul a:hover, footer nav ul a:hover, footer p a:hover {
     font-weight: bold;
 }
 
+.hero, .hero video {
+    max-width: 100%;
+}
+
 .contenitore {
 	max-width: 1100px;
 	margin: 0 auto;
@@ -96,21 +100,27 @@ header nav ul a:hover, footer nav ul a:hover, footer p a:hover {
 
 svg {
     fill: white;
+    margin-bottom: 20px;
+}
+
+.link-card {
+    text-decoration: none;
 }
 
 .elemento-rosso {
     background-color: #460202;
-    width: 360px;
-    height: 340px;
+    width: 250px;
+    height: 250px;
     align-content: center;
     border-radius: 50px;
     border: solid white 7px;
+    text-decoration: none;
 }
 
 .elemento-rosato {
     background-color: #C96666;
-    width: 360px;
-    height: 340px;
+    width: 250px;
+    height: 250px;
     align-content: center;
     border-radius: 50px;
     border: solid white 7px;
@@ -118,8 +128,8 @@ svg {
 
 .elemento-bianco {
     background-color: #DDBD4A;
-    width: 360px;
-    height: 340px;
+    width: 250px;
+    height: 250px;
     align-content: center;
     border-radius: 50px;
     border: solid white 7px;
@@ -129,11 +139,13 @@ svg {
     display: grid;
     grid-template-rows: 1fr;
     row-gap: 65px;
+    margin-bottom: 100px;
 }
 
 .contenitore-icone {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 70px;
     margin: auto;
 }
 
@@ -149,7 +161,6 @@ svg {
 .testo-e-icona {
     margin: 0 auto;
     text-align: center;
-    
 }
 
 .testo-icona {
