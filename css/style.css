@@ -95,3 +95,6 @@ svg {
 .testo-e-icona {
     margin: 0 auto;
 }
+.hero video {
+    max-width: 100%;
+}
