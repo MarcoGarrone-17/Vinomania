@@ -274,10 +274,9 @@ letter-spacing: -0.198px;
     grid-template-columns: 1fr 1fr;
     gap: 70px;
     margin: auto;
-
 }
 
-.elemento-storia {
+.elemento-nascita, .elemento-botti {
     background-color: #D6C2AB;
     width: 250px;
     height: 250px;
