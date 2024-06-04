@@ -268,3 +268,24 @@ letter-spacing: -0.198px;
     line-height: 150%; /* 24px */
     letter-spacing: 0.8px;
 }
+
+.contenitore-icone-storia {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+    margin: auto;
+
+}
+
+.elemento-storia {
+    background-color: #D6C2AB;
+    width: 250px;
+    height: 250px;
+    align-content: center;
+    border-radius: 50px;
+    border: solid white 7px;
+}
+
+.testo-icona-storia {
+    color: black;
+}
