@@ -145,7 +145,11 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
+.text-cont-1-botti {
 
+    width: 463px;
+    height: 297px;
+    }
 .text-cont-1 p {
 padding-top: 37px;
 font-size: 18px;
@@ -293,15 +297,9 @@ letter-spacing: -0.198px;
     color: black;
 }
 
-.text-cont-1-botti {
-
-width: 463px;
-height: 297px;
-}
 
 .contenitore-titolo {
-padding-left: 100%;
-margin: auto;
+
 position: absolute;
 width: 420px;
 height: 141px;
