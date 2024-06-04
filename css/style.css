@@ -145,15 +145,38 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
+.text-cont-1-botti {
 
+    width: 463px;
+    height: 297px;
+    }
 .text-cont-1 p {
-    padding-top: 37px;
+padding-top: 37px;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 150%; /* 27px */
 letter-spacing: -0.198px;
 }
+.text-cont-1-botti p {
+padding-top: 25px;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 27px */
+letter-spacing: -0.198px;
+}
+
+.cont-textSX-imgDX .text-cont-1-botti {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+    letter-spacing: -0.198px;
+
+}
+
 
 .text-cont-1 {
     width: 560px;
@@ -236,37 +259,22 @@ letter-spacing: -0.198px;
 
 .hero {
     max-width: 100%;
+    position: relative;
 }
 
-.hero .rossotitolo h1 {
-    color: #FFF;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 150%; /* 48px */
-    letter-spacing: -0.608px;
-    position: absolute;
-    background: #1C0000;
-    width: 470px;
-    height: 141px;
+.hero1 {
+    max-width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.contenitore-1-botti {
+    max-width: 1120px;
+    margin: auto;
+    color: white;
     display: flex;
-    align-items: center;
-    text-align: right;
-    padding-left: 29px;
-    margin: 428px 0px 414px 1020px;
-}
+    gap: 110px;
 
-.rossotesto {
-    margin-top: 95px;
-    margin-left: 150px;
-    width: 544px;
-    height: 115px;
-    color: #FFF;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%; /* 24px */
-    letter-spacing: 0.8px;
 }
 
 .contenitore-icone-storia {
@@ -289,8 +297,22 @@ letter-spacing: -0.198px;
     color: black;
 }
 
-.text-cont-1-botti {
-padding-bottom: 71px;
-width: 463px;
-height: 297px;
+
+.contenitore-titolo {
+
+position: absolute;
+width: 420px;
+height: 141px;
+background: #1C0000;
+color: #FFF;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 48px */
+letter-spacing: -0.608px;
+display: flex;
+align-items: center;
+text-align: right;
+padding-left: 48px;
+justify-content: center;
 }
