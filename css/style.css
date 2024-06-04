@@ -190,7 +190,14 @@ letter-spacing: -0.198px;
 
 .text-cont-1 {
     width: 560px;
-    height: 108px;
+}
+.text-cont-1 a{
+    text-decoration: none;
+    color: #FFF;
+}
+.text-cont-1bianco {
+    text-decoration: none;
+    color: #000;
 }
 
 .contenitore-1 {
@@ -198,6 +205,7 @@ letter-spacing: -0.198px;
     margin: auto;
     color: white;
     display: flex;
+    align-items: center;
     gap: 110px;
 }
 
