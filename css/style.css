@@ -101,7 +101,6 @@ header nav ul a, footer nav ul a {
 
 header nav ul a:hover, footer nav ul a:hover, footer p a:hover {
     text-decoration: underline;
-    font-weight: bold;
 }
 
 svg {
@@ -259,13 +258,7 @@ letter-spacing: -0.198px;
 }
 
 .titolo-section-ico {
-    color: white;
-    margin: 0 auto;
     margin-top: 60px;
-    text-align: center;
-    border-bottom: solid white;
-    width: 210px;
-    padding-bottom: 10px;
 }
 
 .testo-e-icona {
@@ -349,11 +342,7 @@ padding-left: 48px;
 justify-content: center;
 }
 
-.icona-abbinamento .icona {
-    border-radius: 50%;
-    width: 160px;
-    height: 160px;
-}
+
 
 .icona-abbinamento .testo-icona {
     color: #000;
