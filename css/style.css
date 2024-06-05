@@ -110,6 +110,7 @@ svg {
 
 .contenitore-hero-media {
     position: relative;
+   
 }
 
 .hero-media {
@@ -120,12 +121,14 @@ svg {
     padding: 100px 20px;
 }
 
-.cont-textSX-imgDX {
+.cont-textSX-imgDX.white{
     padding: 100px 20px;
     background-color: #FFF;
 }
 
-.cont-textSX-imgDX .text-cont-1{
+
+
+.cont-textSX-imgDX.white .text-cont-1.white{
     color: #000;
     font-size: 18px;
     font-style: normal;
@@ -134,7 +137,9 @@ svg {
     letter-spacing: -0.198px;
 }
 
-.cont-textSX-imgDX .card-home img {
+
+
+.cont-textSX-imgDX .card-home.white img {
     border-radius: 55px;
     border: 6px solid black;
     background: url(<path-to-image>) lightgray 50% / cover no-repeat;
@@ -242,6 +247,7 @@ letter-spacing: -0.198px;
     grid-template-rows: 1fr;
     row-gap: 65px;
     margin-bottom: 100px;
+    margin-top: 100px;
 }
 
 .backgroundbianco {
@@ -257,8 +263,15 @@ letter-spacing: -0.198px;
     margin: auto;
 }
 
-.titolo-section-ico {
-    margin-top: 60px;
+.contenitore-icone.storia {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin: auto;
+}
+
+.testo-icona.nero {
+    color: #000;
 }
 
 .testo-e-icona {
@@ -365,3 +378,18 @@ justify-content: center;
 .icona.bianco {
     background-color: #DDBD4A;
 }
+
+.text-cont-1 .sto a {
+color: #000;
+}
+
+.cont-textSX-imgDX a {
+    color: #000;
+}
+
+.cont-textSX-imgDX {
+    padding: 100px 20px;
+    color: #FFF;
+}
+
+
