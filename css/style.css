@@ -40,6 +40,11 @@ header {
     padding: 0px 100px;
 }
 
+.evidenziato  { 
+    color: aqua;
+    font-weight: bold;
+}
+
 footer {
     justify-content: space-between;
     display: flex;
@@ -401,4 +406,40 @@ color: #000;
     color: #FFF;
 }
 
+@media (max-width:768px) {
+    header {
+    padding: 10px 100px;
+    flex-direction: column;
+    } 
 
+    .tag-page {
+        width: 220px;
+        height: 70px;
+    }
+    .tag-page h1 {
+    font-size: 20px;
+    }
+
+    .contenitore-icone {
+        grid-template-columns: 1fr;
+}
+footer nav ul {
+    padding-right: 0px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+footer {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    
+}
+
+footer p {
+    margin-bottom: 0px;
+    margin-top: 25px;
+    padding-left: 0px;
+}
+
+}
