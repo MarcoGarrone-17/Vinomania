@@ -251,14 +251,15 @@ letter-spacing: -0.198px;
     display: grid;
     grid-template-rows: 1fr;
     row-gap: 65px;
-    margin-bottom: 100px;
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .backgroundbianco {
     background-color: #FFF;
     padding-top: 78px;
     padding-bottom: 78px;
+    margin-bottom: 0;
 }
 
 .contenitore-icone {
@@ -405,6 +406,47 @@ color: #000;
     padding: 100px 20px;
     color: #FFF;
 }
+
+.text-cont-1 h2 {
+    color: #FFE69A;
+    margin-top: 40px;
+}
+.text-cont-1.white h2 {
+    color: #FFA800;
+    margin-top: 40px;
+}
+
+.elemento-caratteristiche.rosso {
+    background-color: #460202;
+    width: 250px;
+    height: 250px;
+    align-content: center;
+    border-radius: 50px;
+    border: solid white 7px;
+    text-decoration: none;
+}
+.elemento-caratteristiche.bianco {
+    background-color: #DDBD4A;
+    width: 250px;
+    height: 250px;
+    align-content: center;
+    border-radius: 50px;
+    border: solid white 7px;
+    text-decoration: none;
+}
+.elemento-caratteristiche.rosato {
+    background-color: #C96666;
+    width: 250px;
+    height: 250px;
+    align-content: center;
+    border-radius: 50px;
+    border: solid white 7px;
+    text-decoration: none;
+}
+
+
+
+
 
 @media (max-width:768px) {
     header {
