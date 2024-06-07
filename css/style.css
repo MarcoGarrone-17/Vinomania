@@ -392,21 +392,21 @@ justify-content: center;
 
 .icona.rosso {
     background-color: #3D0014;
-    border-radius: 80px;
+    border-radius: 50px;
     height: 160px;
     width: 160px;
 }
 
 .icona.rosato {
     background-color: #C96666;
-    border-radius: 80px;
+    border-radius: 50px;
     height: 160px;
     width: 160px;
 }
 
 .icona.bianco {
     background-color: #DDBD4A;
-    border-radius: 80px;
+    border-radius: 50px;
     height: 160px;
     width: 160px;
 }
