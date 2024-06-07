@@ -131,7 +131,10 @@ svg {
     background-color: #FFF;
 }
 
-
+.elemento-botti:hover, .elemento-nascita:hover {
+    background-color: #a58969;
+    transition: .2s;
+}
 
 .cont-textSX-imgDX.white .text-cont-1.white{
     color: #000;
@@ -141,8 +144,6 @@ svg {
     line-height: 150%; /* 27px */
     letter-spacing: -0.198px;
 }
-
-
 
 .cont-textSX-imgDX .card-home.white img {
     border-radius: 55px;
@@ -229,6 +230,11 @@ letter-spacing: -0.198px;
     text-decoration: none;
 }
 
+.elemento-rosso:hover {
+    background-color: #330303;
+    transition: .2s;
+}
+
 .elemento-rosato {
     background-color: #C96666;
     width: 250px;
@@ -236,6 +242,13 @@ letter-spacing: -0.198px;
     align-content: center;
     border-radius: 50px;
     border: solid white 7px;
+}
+
+.elemento-rosato:hover {
+    opacity: 60%;
+    
+    transition: .2s;
+    color: white;
 }
 
 .elemento-bianco {
