@@ -469,6 +469,18 @@ color: #000;
     text-decoration: none;
 }
 
+.bianco.boxattivo {
+    background-color: #a48d37;
+}
+
+.rosato.boxattivo {
+    background-color: #904848;
+}
+
+.rosso.boxattivo {
+    background-color: #330303;
+}
+
 @media (max-width:768px) {
     header {
     padding: 10px 100px;
