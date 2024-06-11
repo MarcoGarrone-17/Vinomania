@@ -537,4 +537,8 @@ color: #000;
     width: auto;
     margin: auto;
    }
+   .contenitore-1.cont-textSX-imgDX.white {
+    width: auto;
+    flex-direction: column;
+   }
 }
