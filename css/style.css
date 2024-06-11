@@ -131,7 +131,7 @@ svg {
     transition: .2s;
 }
 
-.elemento-botti:ou, .elemento-nascita:hover {
+.elemento-botti:hover, .elemento-nascita:hover {
     background-color: #a58969;
     transition: .2s;
 }
@@ -207,7 +207,6 @@ letter-spacing: -0.198px;
     width: 560px;
 }
 .text-cont-1 a{
-    text-decoration: none;
     color: #FFF;
 }
 
