@@ -525,11 +525,13 @@ color: #000;
      grid-template-columns: 1fr;
     }
 
-    .contenitore-1,.white, .botti {
+    .contenitore-1 {
      width: 300px;
      flex-direction: column;
     }
-    
+    .cont-textDX-imgSX {
+        width: auto;
+    }
   
 
 }
