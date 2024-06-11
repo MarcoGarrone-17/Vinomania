@@ -532,6 +532,9 @@ color: #000;
     .cont-textDX-imgSX {
         width: 300px;
     }
-  
+    .cont-textSX-imgDX .white {
+        width: 300px;
+
+    }
 
 }
