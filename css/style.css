@@ -525,10 +525,9 @@ color: #000;
     }
 
     .contenitore-1 {
+        width: 300px;
      flex-direction: column;
     }
-    .text-cont-1, .white {
-        width: 300px;;
-    }
+    
 
 }
