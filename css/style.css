@@ -532,6 +532,9 @@ color: #000;
         width: auto;
         margin: auto;
     }
-   
+   .text-cont-1-botti, .white {
+    width: auto;
+    margin: auto;
+   }
 
 }
