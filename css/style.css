@@ -520,20 +520,12 @@ color: #000;
     }
 
     .contenitore-icone.storia {
-     width: 300px;
      gap:30px;
      grid-template-columns: 1fr;
     }
 
     .contenitore-1 {
      flex-direction: column;
-    }
-    .cont-textDX-imgSX {
-        width: 200px;
-    }
-    .cont-textSX-imgDX .white {
-        width: 200px;
-
     }
 
 }
