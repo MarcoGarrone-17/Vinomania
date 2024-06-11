@@ -200,6 +200,7 @@ letter-spacing: -0.198px;
 
 .mark-titoli-home:hover {
     color: #FFA800;
+    transition: .2s;
 }
 
 .text-cont-1 {
