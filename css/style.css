@@ -99,7 +99,7 @@ header nav ul a, footer nav ul a {
     color: white;
 }
 
-header nav ul a:hover, footer nav ul a:hover, footer p a:hover {
+header nav ul a:hover, footer nav ul a:hover, footer p a:hover, .crumbs ol a:hover {
     text-decoration: underline;
 }
 
@@ -110,7 +110,6 @@ svg {
 
 .contenitore-hero-media {
     position: relative;
-   
 }
 
 .hero-media {
@@ -481,26 +480,32 @@ color: #000;
     background-color: #330303;
 }
 
-.molliche a {
-color: #FFF;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
+.crumbs ol {
+    list-style-type: none;
 }
 
-.molliche p {
-color: #FFA800;
-font-size: 16px;
-font-style: normal;
-font-weight: 700;
+.crumb {
+    display: inline-block;
 }
 
-.molliche {
-    display: flex;
-    padding: 18px 100px;
-    gap: 24px;
+.crumbs a {
+    color: white;
+    text-decoration: none;
 }
 
+a.evidenziato {
+    color: #FFA800;
+}
+
+.crumb a::after {
+    display: inline-block;
+    color: white;
+    content: '>';
+    font-size: 80%;
+    font-weight: bold;
+    padding-left: .5rem;
+    padding-right: .2rem;
+  }
 
 @media (max-width:600px) {
     header {
