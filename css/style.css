@@ -42,7 +42,7 @@ header {
 }
 
 .evidenziato  { 
-    color: #FFE69A;
+    color: #FFA800;
     font-weight: bold;
 }
 
@@ -481,6 +481,27 @@ color: #000;
     background-color: #330303;
 }
 
+.molliche a {
+color: #FFF;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+}
+
+.molliche p {
+color: #FFA800;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+}
+
+.molliche {
+    display: flex;
+    padding: 18px 100px;
+    gap: 24px;
+}
+
+
 @media (max-width:600px) {
     header {
      padding: 10px 100px;
@@ -544,5 +565,8 @@ color: #000;
     height: auto;
    }
 
+   .molliche {
+    padding: 18px 50px;
+   }
 
 }
