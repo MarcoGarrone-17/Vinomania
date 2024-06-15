@@ -197,9 +197,12 @@ letter-spacing: -0.198px;
     letter-spacing: -0.198px;
 }
 
+.mark-titoli-home {
+    transition: all 0.1s ease-in-out;
+}
+
 .mark-titoli-home:hover {
     color: #FFA800;
-    transition: .2s;
 }
 
 .text-cont-1 {
@@ -208,7 +211,6 @@ letter-spacing: -0.198px;
 .text-cont-1 a{
     color: #FFF;
 }
-
 
 .contenitore-1 {
     max-width: 1120px;
@@ -231,6 +233,7 @@ letter-spacing: -0.198px;
     border-radius: 50px;
     border: solid white 7px;
     text-decoration: none;
+    transition: all 0.1s ease-in-out;
 }
 
 .elemento-rosato {
@@ -240,6 +243,7 @@ letter-spacing: -0.198px;
     align-content: center;
     border-radius: 50px;
     border: solid white 7px;
+    transition: all 0.1s ease-in-out;
 }
 
 .elemento-bianco {
@@ -249,21 +253,23 @@ letter-spacing: -0.198px;
     align-content: center;
     border-radius: 50px;
     border: solid white 7px;
+    transition: all 0.1s ease-in-out;
+}
+
+.icona.rosso, .icona.rosato, .icona.bianco {
+    transition: all 0.1s ease-in-out;
 }
 
 .elemento-rosso:hover, .icona.rosso:hover, .elemento-caratteristiche.rosso:hover {
-    background-color: #330303;
-    transition: .2s;
+    background-color: #9c0d0d;
 }
 
 .elemento-rosato:hover, .icona.rosato:hover, .elemento-caratteristiche.rosato:hover {
-    background-color: #904848;
-    transition: .2s;
+    background-color: #ff4e4ed1;
 }
 
 .elemento-bianco:hover, .icona.bianco:hover, .elemento-caratteristiche.bianco:hover {
-    background-color: #a48d37;
-    transition: .2s;
+    background-color: #ffc800e6;
 }
 
 .section-ico {
@@ -342,6 +348,7 @@ letter-spacing: -0.198px;
     align-content: center;
     border-radius: 50px;
     border: solid white 7px;
+    transition: all 0.1s ease-in-out;
 }
 
 .testo-icona-storia {
@@ -441,11 +448,11 @@ color: #000;
     border-radius: 50px;
     border: solid white 7px;
     text-decoration: none;
+    transition: all 0.1s ease-in-out;
 }
 
 .elemento-caratteristiche.rosso:hover {
-    background-color: #330303;
-    transition: .2s;
+    background-color: #790808;
 }
 
 .elemento-caratteristiche.bianco {
@@ -456,6 +463,7 @@ color: #000;
     border-radius: 50px;
     border: solid white 7px;
     text-decoration: none;
+    transition: all 0.1s ease-in-out;
 }
 
 .elemento-caratteristiche.rosato {
@@ -466,6 +474,7 @@ color: #000;
     border-radius: 50px;
     border: solid white 7px;
     text-decoration: none;
+    transition: all 0.1s ease-in-out;
 }
 
 .bianco.boxattivo {
