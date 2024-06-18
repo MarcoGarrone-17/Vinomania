@@ -22,7 +22,7 @@ video, .contenitore-hero-media img {
 
 svg {
     fill: white;
-    margin-bottom: 20px;
+    margin: auto;
 }
 
 .contenitore {
@@ -105,7 +105,6 @@ header nav ul a:hover, footer nav ul a:hover, footer p a:hover, .crumbs ol a:hov
 
 svg {
     fill: white;
-    margin-bottom: 20px;
 }
 
 .contenitore-hero-media {
@@ -290,14 +289,14 @@ letter-spacing: -0.198px;
 .contenitore-icone {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 70px;
+    gap: 80px;
     margin: auto;
 }
 
 .contenitore-icone.storia {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 12px;
+    gap: 80px;
     margin: auto;
 }
 
@@ -312,6 +311,7 @@ letter-spacing: -0.198px;
 
 .testo-icona {
     color: white;
+    padding-top: 20px;;
 }
 
 .hero {
@@ -391,17 +391,12 @@ justify-content: center;
     color: #000;
 }
 
-.icona-abbinamento .icona svg {
-    top: 20px;
-    display: inline-block;
-    position: relative;
-}
-
 .icona.rosso {
     background-color:  #460202;
     border-radius: 50px;
     height: 160px;
     width: 160px;
+    display: grid;
 }
 
 .icona.rosato {
@@ -409,6 +404,7 @@ justify-content: center;
     border-radius: 50px;
     height: 160px;
     width: 160px;
+    display: grid;
 }
 
 .icona.bianco {
@@ -416,6 +412,7 @@ justify-content: center;
     border-radius: 50px;
     height: 160px;
     width: 160px;
+    display: grid;
 }
 
 .text-cont-1 .sto a {
@@ -427,7 +424,7 @@ color: #000;
 }
 
 .cont-textSX-imgDX {
-    padding: 100px 20px;
+    padding: 40px 20px 100px 20px;
     color: #FFF;
 }
 
@@ -503,7 +500,7 @@ color: #000;
 }
 
 .crumbs {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .crumbs ol {
@@ -527,9 +524,15 @@ a.evidenziato {
     display: inline-block;
     color: white;
     content: '>';
+    font-size: 12px;
+    margin: auto;
     font-weight: bold;
-    padding-left: .5rem;
-    padding-right: .2rem;
+    padding-left: 15px;
+    padding-right: 10px;
+  }
+
+  .contenitore-chi-siamo {
+    padding: 100px 20px;
   }
 
 @media (max-width:600px) {
