@@ -151,8 +151,9 @@ svg {
 
 
 .card-home img {
+max-width: 96%;
 object-fit: cover;
-width: 483px;
+width: 400px;
 height: 438px;
 border-radius: 55px;
 border: 6px solid #FFF;
@@ -179,6 +180,7 @@ font-weight: 400;
 line-height: 150%; /* 27px */
 letter-spacing: -0.198px;
 }
+
 .text-cont-1-botti p {
 padding-top: 25px;
 font-size: 18px;
@@ -208,6 +210,7 @@ letter-spacing: -0.198px;
 .text-cont-1 {
     width: 560px;
 }
+
 .text-cont-1 a{
     color: #FFF;
 }
@@ -433,6 +436,7 @@ color: #000;
     color: #FFE69A;
     margin-top: 40px;
 }
+
 .text-cont-1.white h2 {
     color: #FFA800;
     margin-top: 40px;
@@ -591,6 +595,7 @@ a.evidenziato {
     width: auto;
     margin: auto;
    }
+   
    .contenitore-1.cont-textSX-imgDX.white {
     flex-direction: column;
    }
