@@ -582,6 +582,7 @@ a.evidenziato {
     .contenitore-1 {
      flex-direction: column;
     }
+   
     .text-cont-1, .white {
         width: auto;
         margin: auto;
