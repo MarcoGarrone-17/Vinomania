@@ -149,6 +149,7 @@ svg {
     background: url(<path-to-image>) lightgray 50% / cover no-repeat;
 }
 
+
 .card-home img {
 object-fit: cover;
 width: 483px;
@@ -212,7 +213,7 @@ letter-spacing: -0.198px;
 }
 
 .contenitore-1 {
-    max-width: 1120px;
+    max-width: 1200px;
     margin: auto;
     color: white;
     display: flex;
