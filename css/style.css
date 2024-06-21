@@ -167,7 +167,7 @@ line-height: normal;
 }
 
 .text-cont-1-botti {
-    width: 463px;
+    width: 560px;
     height: 297px;
 }
 
@@ -220,8 +220,9 @@ letter-spacing: -0.198px;
     color: white;
     display: flex;
     align-items: center;
-    gap: 110px;
+    gap: 190px;
 }
+
 
 .link-card {
     text-decoration: none;
@@ -480,15 +481,15 @@ color: #000;
 }
 
 .bianco.boxattivo {
-    background-color: #a48d37;
+    background-color: #ffc800e6;
 }
 
 .rosato.boxattivo {
-    background-color: #904848;
+    background-color: #ff4e4ed1;
 }
 
 .rosso.boxattivo {
-    background-color: #330303;
+    background-color: #9c0d0d;
 }
 
 .mollica {
@@ -584,6 +585,7 @@ a.evidenziato {
     }
 
     .contenitore-1 {
+     gap: 50px;
      flex-direction: column;
     }
    
@@ -600,6 +602,17 @@ a.evidenziato {
    .contenitore-1.cont-textSX-imgDX.white {
     flex-direction: column;
    }
+
+   .cont-textSX-imgDX.white {
+    padding: 50px 20px;
+   }
+
+   .cont-textDX-imgSX {
+    padding: 40px 20px 50px 20px;
+}
+.cont-textSX-imgDX {
+    padding: 50px 20px
+}
 
    .text-cont-1-botti {
     width: auto;
