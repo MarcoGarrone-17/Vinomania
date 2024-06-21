@@ -149,7 +149,6 @@ svg {
     background: url(<path-to-image>) lightgray 50% / cover no-repeat;
 }
 
-
 .card-home img {
 max-width: 96%;
 object-fit: cover;
@@ -369,6 +368,7 @@ letter-spacing: -0.198px;
     position: absolute;
     bottom: 50%;
 }
+
 .tag-page h1{
     padding-left: 29px;
 }
@@ -591,6 +591,7 @@ a.evidenziato {
         width: auto;
         margin: auto;
     }
+    
    .text-cont-1-botti p {
     width: auto;
     margin: auto;
