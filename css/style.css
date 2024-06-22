@@ -115,6 +115,23 @@ svg {
     width: 100%;
 }
 
+.card-home a {
+    width: 400px;
+    height: 455px;
+}
+
+.card-home a img {
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+
+  .card-home a:hover img {
+   -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
 .cont-textDX-imgSX {
     padding: 40px 20px 100px 20px;
 }
@@ -692,7 +709,7 @@ a.evidenziato {
     padding: 40px 20px 50px 20px;
     }
 
-   .cont-textSX-imgDX {
+    .cont-textSX-imgDX {
     padding: 50px 20px
     }
 
