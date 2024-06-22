@@ -121,11 +121,11 @@ header nav ul a:hover, footer nav ul a:hover, footer p a:hover, .crumbs ol a:hov
     transition: all 0.3s;
   }
 
-  .card-home a:hover img {
-   -moz-transform: scale(1.1);
+.card-home a:hover img {
+    -moz-transform: scale(1.1);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
-  }
+}
 
 .cont-textDX-imgSX {
     padding: 40px 20px 100px 20px;
@@ -178,36 +178,13 @@ font-weight: 700;
 line-height: normal;
 }
 
-.text-cont-1-botti {
-    width: 560px;
-    height: 297px;
-}
-
 .text-cont-1 p {
 padding-top: 37px;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
-line-height: 150%; /* 27px */
+line-height: 150%; 
 letter-spacing: -0.198px;
-}
-
-.text-cont-1-botti p {
-padding-top: 25px;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 150%; /* 27px */
-letter-spacing: -0.198px;
-}
-
-.cont-textSX-imgDX .text-cont-1-botti {
-    color: #000;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%; /* 27px */
-    letter-spacing: -0.198px;
 }
 
 .mark-titoli-home {
@@ -351,15 +328,6 @@ letter-spacing: -0.198px;
     margin: 0 auto;
 }
 
-.contenitore-1-botti {
-    max-width: 1120px;
-    margin: auto;
-    color: white;
-    display: flex;
-    gap: 110px;
-
-}
-
 .contenitore-icone-storia {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -406,7 +374,7 @@ color: #FFF;
 font-size: 32px;
 font-style: normal;
 font-weight: 700;
-line-height: 150%; /* 48px */
+line-height: 150%;
 letter-spacing: -0.608px;
 display: flex;
 align-items: center;
@@ -443,10 +411,6 @@ justify-content: center;
     display: grid;
 }
 
-.text-cont-1 .sto a {
-color: #000;
-}
-
 .cont-textSX-imgDX a {
     color: #000;
 }
@@ -475,10 +439,6 @@ color: #000;
     border: solid white 7px;
     text-decoration: none;
     transition: all 0.1s ease-in-out;
-}
-
-.elemento-caratteristiche.rosso:hover {
-    background-color: #790808;
 }
 
 .elemento-caratteristiche.bianco {
@@ -525,7 +485,6 @@ color: #000;
     color: white;
     display: flex;
     align-items: center;
-    gap: 110px;
 }
 
 .crumbs {
@@ -585,15 +544,20 @@ a.evidenziato {
   }
 
   @media (max-width:850px) {
-    .contenitore-icone {
+       .contenitore-icone {
         gap: 32px;
        }
-
-       video, .contenitore-hero-media img {
+        video, .contenitore-hero-media img {
         object-fit: scale-down;
         height: auto;
        }
-       
+       .tag-page {
+        width: 290px;
+        height: 103px;
+       }
+       .tag-page h1 {
+        font-size: 25px;
+       }
   }
 
 
